@@ -12,7 +12,7 @@ Directives (sudo chmod -R 777 folder for write modules permission if necessary)<
 1)npm install node-gyp<br />
 2)npm install scrypt<br />
 3)npm install web3<br />
-2)npm run test<br />
+4)npm run test<br />
 
 Unit test directives:it has got 12 unit test functions for <br />
   => 2 startUp company for waiting investment and voting<br />
