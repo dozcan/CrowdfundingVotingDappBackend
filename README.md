@@ -9,7 +9,7 @@ compile.js => solidity compiler for abi and bytecode
 index.js   => nodejs functions for interacting for web3js library in mocha framework
 
 Directives
-1)npm install -g
+1)npm install scrypt
 2)npm run test
 
 Unit test directives:it has got 12 unit test functions for 
