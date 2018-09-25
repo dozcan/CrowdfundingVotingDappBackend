@@ -1,6 +1,7 @@
 # CrowdfundingVotingDappBackend
 
 This project includes smart contract, unit test and javascript functions like below; 
+Technology:nodejs ,web3.js,solidty, ganache-cli,mocha
 
 contracts  => smart contract
 test       => test framework mocha functions
