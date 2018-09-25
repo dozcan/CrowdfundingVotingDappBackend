@@ -2,8 +2,14 @@ const {interface, bytecode} =require('./compile.js');
 const Web3 = require('web3');
 const cors = require('cors');
 const ganache = require('ganache-cli');
+const options = {gasLimit:8000000};
+ganache.server(options);
 var web3 = new Web3(ganache.provider());
-
+var express = require('express');
+const app = express();
+var bodyParser = require('body-parser');
+app.use(cors());
+app.use(bodyParser.json({limit:1024*1024,type:'application/json'}));
 
 let accounts = [];
 let contractAddress;
