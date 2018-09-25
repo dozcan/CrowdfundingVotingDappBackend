@@ -9,7 +9,8 @@ compile.js => solidity compiler for abi and bytecode
 index.js   => nodejs functions for interacting for web3js library in mocha framework
 
 Directives (sudo chmod -R 777 folder for write modules permission if necessary)
-1)npm install scrypt
+1)npm install node-gyp
+2)npm install scrypt
 2)npm run test
 
 Unit test directives:it has got 12 unit test functions for 
