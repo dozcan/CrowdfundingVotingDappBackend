@@ -8,11 +8,14 @@ test       => test framework mocha functions<br />
 compile.js => solidity compiler for abi and bytecode<br />
 index.js   => nodejs functions for interacting for web3js library in mocha framework<br />
 
-Directives (sudo chmod -R 777 folder for write modules permission if necessary)<br />
-1)npm install node-gyp<br />
-2)npm install scrypt<br />
-3)npm install web3<br />
-4)npm run test<br />
+Directives <br />
+
+1)sudo chmod -R 777 CrowdfundingVotingDappBackend<br />
+2)npm install node-gyp <br />
+3)sudo chmod -R 777 CrowdfundingVotingDappBackend<br />
+4)npm install scrypt<br />
+5)npm install web3<br />
+6)npm run test<br />
 
 Unit test directives:it has got 12 unit test functions for <br />
   => 2 startUp company for waiting investment and voting<br />
