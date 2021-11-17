@@ -19,6 +19,8 @@ Directives <br />
 5)npm install web3<br />
 6)npm run test<br />
 
+or sudo npm install is necessary
+
 Unit test directives:it has got 12 unit test functions for <br />
   => 2 startUp company for waiting investment and voting<br />
   => 2 investor who send ethereum to contract and then vote for startup<br />
